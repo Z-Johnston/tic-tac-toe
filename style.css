@@ -1,0 +1,31 @@
+* {
+    font-family: arial;
+}
+body {
+    background-color: rgb(216, 208, 208);
+    display: grid;
+    justify-content: center;
+}
+
+.title {
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+.gameboard {
+    display: grid;
+    width: auto-fit;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+    background-color: black;
+    gap: 10px;
+    justify-content: center;
+    border: solid 15px rgb(0, 0, 0);
+
+}
+
+.spot {
+    background-color: antiquewhite;
+    
+}
